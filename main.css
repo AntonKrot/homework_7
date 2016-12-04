@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  background-color: #FFFFFF;
+}
+.wrapper:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.header {
+  height: 100px;
+  background: #FFFFFF;
+  border-bottom: solid #EEEEEE 1px;
+}
+.header__title {
+  float: left;
+  padding: 0 10px 0 10px;
+}
+.header__row {
+  justify-content: center;
+}
+.content {
+  background: #FFFFFF;
+  font-family: "Segoe UI Light" sans-serif;
+}
+.container-form__row {
+  margin-top: 10px;
+}
+.form-title {
+  margin-top: 6px;
+  font-size: 18px;
+  font-family: "Segoe UI Light" sans-serif;
+}
+.conteiner-table {
+  margin-top: 10px;
+}
+.footer {
+  border-top: solid #EEEEEE 1px;
+  background-color: #FFFFFF;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+  text-align: center;
+  padding: 20px;
+}
